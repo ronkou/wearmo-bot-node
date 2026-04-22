@@ -1,0 +1,14 @@
+{
+  "name": "wearmo-bot-node",
+  "version": "1.0.0",
+  "main": "api/index.js",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^8.0.0",
+    "axios": "^1.6.0"
+  },
+  "scripts": {
+    "start": "node api/index.js",
+    "dev": "node api/index.js"
+  }
+}
